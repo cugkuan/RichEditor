@@ -5,7 +5,9 @@
 
 部分源码有修改，以便能够达到商业化使用的目的。
 
-项目中给出的demo，可以直接拿去使用。
+给出的demo，基本上可以达到商业化使用的目的。
+
+该项目会持续更新，打造Android端强大的富文本编辑器。
 
 ![image](https://github.com/cugkuan/RichEditor/blob/master/pic/WechatIMG7.png)
 
