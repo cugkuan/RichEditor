@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f3f3f3"
+    android:orientation="vertical">
+
+
+    <HorizontalScrollView
+        android:id="@+id/layout_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/tv_bold"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:scaleType="center"
+                android:src="@mipmap/font_bold" />
+
+            <ImageView
+                android:id="@+id/tv_italic"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:scaleType="center"
+                android:src="@mipmap/font_itali" />
+
+            <ImageView
+                android:id="@+id/tv_strike"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:scaleType="center"
+                android:src="@mipmap/font_strike" />
+
+            <ImageView
+                android:id="@+id/tv_underline"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:scaleType="center"
+                android:src="@mipmap/font_underline" />
+
+            <ImageView
+                android:id="@+id/tv_h1"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:scaleType="center"
+                android:src="@mipmap/font_h1" />
+
+            <ImageView
+                android:id="@+id/tv_h2"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:scaleType="center"
+                android:src="@mipmap/font_h2" />
+
+            <ImageView
+                android:id="@+id/tv_h3"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:scaleType="center"
+                android:src="@mipmap/font_h3" />
+
+
+            <ImageView
+                android:id="@+id/tv_orderList"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:scaleType="center"
+                android:src="@mipmap/edit_order_list"
+                android:text="有序列表"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/tv_unOrderList"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:scaleType="center"
+                android:src="@mipmap/edit_unorder_list"
+                android:text="无序列表"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/btn_quote"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:scaleType="center"
+                android:src="@mipmap/edit_quote"
+                android:text="“引用”"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/layout_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <View
+            android:id="@+id/btn_color_default"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_color_default"
+            android:gravity="center"
+            android:text="B"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/btn_color_red"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_color_red"
+            android:gravity="center"
+            android:text="I"
+            android:textStyle="italic" />
+
+        <View
+            android:id="@+id/btn_color_green"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_color_green"
+            android:gravity="center"
+            android:text="S" />
+
+        <View
+            android:id="@+id/btn_color_orange"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_color_orange"
+            android:gravity="center"
+            android:text="H1"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/btn_color_blue"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_color_blue"
+            android:gravity="center"
+            android:text="H2"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#dddddd">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@color/bg_color"
+        android:orientation="horizontal">
+
+        <HorizontalScrollView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="6dp">
+
+                <ImageView
+                    android:id="@+id/btn_insert_image"
+                    android:layout_width="45dp"
+                    android:layout_height="47dp"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    android:src="@drawable/edit_insert_image" />
+
+                <ImageView
+                    android:id="@+id/btn_open_font"
+                    android:layout_width="45dp"
+                    android:layout_height="47dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:scaleType="center"
+                    android:src="@drawable/edit_font"
+                    android:text="A" />
+
+                <ImageView
+                    android:id="@+id/btn_open_color"
+                    android:layout_width="45dp"
+                    android:layout_height="47dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:scaleType="center"
+                    android:src="@mipmap/open_color"
+                    android:text="●●" />
+
+                <ImageView
+                    android:id="@+id/btn_divider"
+                    android:layout_width="45dp"
+                    android:layout_height="47dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:scaleType="center"
+                    android:src="@drawable/edit_insert_divider"
+                    android:text="---"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/btn_undo"
+                    android:layout_width="45dp"
+                    android:layout_height="47dp"
+                    android:scaleType="center"
+                    android:src="@drawable/edit_undo" />
+
+                <ImageView
+                    android:id="@+id/btn_redo"
+                    android:layout_width="45dp"
+                    android:layout_height="47dp"
+                    android:scaleType="center"
+                    android:src="@drawable/edit_redo" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/btn_commit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/bg_answer_commit"
+            android:gravity="center"
+            android:text="发布"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

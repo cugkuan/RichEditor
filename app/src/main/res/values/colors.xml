@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="html_font_default_color">#FF000000</color>
+    <color name="html_font_red_color">#FFFF0000</color>
+    <color name="html_font_green_color">#FF00FF00</color>
+    <color name="html_font_orange">#FFFFFF00</color>
+    <color name="html_font_blue">#FF0000FF</color>
+    <color name="bg_color">@android:color/white</color>
+
+</resources>

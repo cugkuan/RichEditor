@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017.
+  ~ author:kuan
+  ~ SunStar
+  ~
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="false" android:drawable="@mipmap/font"></item>
+    <item android:drawable="@mipmap/font_s"></item>
+
+</selector>
